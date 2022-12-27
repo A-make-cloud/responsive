@@ -1,0 +1,18 @@
+/* body{background-color:red}
+@media(max-width: 900px){body{background-color:yellow}}
+query pour du css pour les ecran de 900px minimum */
+
+.d-grid{
+  grid-template-columns: 100px 1fr 1fr 1fr;
+  
+  color: white;
+  grid-template-areas: "d-grid d-grid d-grid dgrid";
+
+}
+.d-grid{grid-area: d-grid;}
+body{ background-color: black}
+@media(max-width:900px){body{background-color:red}}
+  .adaptatif{grid-template-columns: 10% 2fr;
+  grid-template-areas: "adaptatif adaptatif";
+}
+.adaptatif{grid-area: adaptatif;}
